@@ -1,0 +1,76 @@
+@media(max-width:1880px){
+    .hero{
+        background-size: cover;
+    }
+}
+
+@media(max-width: 1250px){
+    .hero{
+        grid:
+        "logo"
+        "hall" 700px
+        "information"
+        "huddle-social" 8px
+        "footer";
+        background-size: cover;
+        grid-row-gap: 35px;
+    }
+
+    .information{
+        align-items: center;
+    }
+
+    .information h1{
+        text-align: center;
+    }
+
+    .information p{
+        text-align: center;
+    }
+
+    .huddle-social{
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 250px;
+    }
+
+    footer{
+        display: none;
+    }
+}
+
+@media(max-width: 720px){
+    
+    .hero{
+        background-image: url(../images/bg-mobile.svg);
+        background-size: cover;
+        grid:
+        "logo" 150px
+        "hall" 300px
+        "information" 500px
+        "huddle-social" 8px
+        "footer";
+    }
+
+    .hall img{
+        width: 340px;
+    }
+
+    .information h1{
+        font-size: 30px;
+    }
+
+    .information p{
+        width: 300px;
+    }
+
+    .huddle-social{
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 280px;
+    }
+
+    footer{
+        display: none;
+    }
+}
