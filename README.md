@@ -30,4 +30,4 @@ This was the results of my attempt with the Huddle landing page with single intr
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://fctexi-solution-url.com)
+- Solution URL: [Add solution URL here](https://fctexi.github.io/Projeto-Huddle-LandingPage/)
